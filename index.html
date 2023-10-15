@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Listado para Compra de Mercaderia</title>
+  </head>
+  <body>
+    <section class="section-center">
+      <form class="prod-form">
+        <p class="alert"></p>
+        <h3>Que voy a comprar ???</h3>
+        <div class="form-control">
+          <input type="text" id="prod" placeholder="Ejm.Pollo" />
+          <button type="submit" class="submit-btn">Añadir productos</button>
+        </div>
+      </form>
+
+      <!-- listado de productos -->
+      <div class="prod-container">
+        <div class="prod-list"></div>
+        <!-- boton borrado de listado -->
+        <button class="clear-btn">Borrar listado de productos</button>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
